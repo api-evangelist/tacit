@@ -1,7 +1,26 @@
 aid: tacit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tacit.png
 name: Tacit
-description: Tacit is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Tacit Networks was an early-2000s enterprise networking vendor and one
+  of the leading providers of WAN Optimization technology for Wide Area File Services
+  (WAFS), letting distributed offices access centralized file servers over the wide
+  area network at LAN-like speeds. Backed by Canaan Partners (Series A led by Maha
+  Ibrahim), JP Morgan, Chevron Technology Ventures and RRE Ventures, the company was
+  acquired by Packeteer in May 2006 (subsequently absorbed into Blue Coat Systems and
+  Symantec). It is defunct: it operated no public developer platform, API, or SDK
+  surface, so this profile carries company identity only and has no API artifacts to
+  enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/tacit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,27 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by Packeteer in May 2006; no live website or API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Networking
+- WAN Optimization
+- WAFS
+- Enterprise Infrastructure
+- File Services
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
